@@ -1,0 +1,17 @@
+apiVersion: v2
+name: camunda-bpm-platform
+description: |
+    A Helm chart for Kubernetes to run Camunda BPM Platform (Engines, Tasklist, Cockpit, etc)
+type: application
+version: 0.1.0
+appVersion: 7.14.0
+keywords:
+  - bpm
+  - bpmn
+  - camunda-bpm-platform
+  - camunda-engine
+  - dmn
+  - process-engine
+  - workflow
+home: https://github.com/camunda/camunda-bpm-platform
+icon: https://docs.camunda.org/get-started/img/Camunda-Circle.svg
