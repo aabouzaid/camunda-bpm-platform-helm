@@ -3,37 +3,10 @@ entries:
   camunda-bpm-platform:
   - apiVersion: v2
     appVersion: 7.14.0
-    created: "2020-11-08T21:13:07.304881795Z"
-    description: |
-      Helm Chart for Camunda BPM Platform (Engines, Tasklist, Cockpit, etc).
-    digest: 6b1af2d25894d1f4868bdafdfbf8ca66f7162f6cb0911622c0de4e5f9ac8357b
-    home: https://camunda.com
-    icon: https://docs.camunda.org/get-started/img/Camunda-Circle.svg
-    keywords:
-    - bpm
-    - bpmn
-    - camunda-bpm-platform
-    - camunda-engine
-    - dmn
-    - process-engine
-    - workflow
-    maintainers:
-    - name: aabouzaid
-    name: camunda-bpm-platform
-    sources:
-    - https://github.com/camunda/camunda-bpm-platform-helm
-    - https://github.com/camunda/docker-camunda-bpm-platform
-    - https://github.com/camunda/camunda-bpm-platform
-    type: application
-    urls:
-    - https://github.com/aabouzaid/camunda-bpm-platform-helm/releases/download/camunda-bpm-platform-0.1.1/camunda-bpm-platform-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 7.14.0
-    created: "2020-11-08T19:19:36.942420332Z"
+    created: "2020-11-08T22:38:35.014663478Z"
     description: |
       Helm Chart for Camunda BPM Platform (Engines, Tasklist, Cockpit, etc)
-    digest: cd18f2cf5d72b839a9842485f11f4715b0be9e05d3c4ca4ab7ad855f2f5a46de
+    digest: 9359093eac1c0fcf21c75a928d8bfa843e18ff67c28ce2389cd16069ff550b3d
     home: https://camunda.com
     icon: https://docs.camunda.org/get-started/img/Camunda-Circle.svg
     keywords:
@@ -51,6 +24,6 @@ entries:
     - https://github.com/camunda/camunda-bpm-platform
     type: application
     urls:
-    - https://github.com/aabouzaid/camunda-bpm-platform-helm/releases/download/camunda-bpm-platform-0.1.0/camunda-bpm-platform-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-11-08T19:19:36.823796445Z"
+    - https://github.com/aabouzaid/camunda-bpm-platform-helm/releases/download/camunda-bpm-platform-0.1.2/camunda-bpm-platform-0.1.2.tgz
+    version: 0.1.2
+generated: "2020-11-08T22:38:34.836450152Z"
