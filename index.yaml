@@ -3,6 +3,31 @@ entries:
   camunda-bpm-platform:
   - apiVersion: v2
     appVersion: 7.14.0
+    created: "2020-11-08T03:38:06.648235487Z"
+    description: |
+      Helm Chart for Camunda BPM Platform (Engines, Tasklist, Cockpit, etc)
+    digest: 8e6ea706803defc4da9ba16e9cd36e99af4a2f0e6ef7baadc32bf2a70a5c8790
+    home: https://camunda.com/
+    icon: https://docs.camunda.org/get-started/img/Camunda-Circle.svg
+    keywords:
+    - bpm
+    - bpmn
+    - camunda-bpm-platform
+    - camunda-engine
+    - dmn
+    - process-engine
+    - workflow
+    name: camunda-bpm-platform
+    sources:
+    - https://github.com/camunda/camunda-bpm-platform-helm
+    - https://github.com/camunda/docker-camunda-bpm-platform
+    - https://github.com/camunda/camunda-bpm-platform
+    type: application
+    urls:
+    - https://github.com/aabouzaid/camunda-bpm-platform-helm/releases/download/camunda-bpm-platform-0.1.1/camunda-bpm-platform-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 7.14.0
     created: "2020-11-08T03:32:18.402836634Z"
     description: |
       Helm Chart for Camunda BPM Platform (Engines, Tasklist, Cockpit, etc)
