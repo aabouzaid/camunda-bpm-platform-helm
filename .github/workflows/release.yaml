@@ -1,0 +1,38 @@
+name: Release Chart
+
+on:
+  # Allow to run the workflow from GitHub UI and other workflows.
+  workflow_dispatch:
+
+env:
+  CHART_DIR: 'camunda-bpm-platform'
+  HELM_VERSION: 3.4.0
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+
+      - name: Install Helm
+        uses: azure/setup-helm@v1
+        with:
+          version: "${{ env.HELM_VERSION }}"
+
+      - name: Copy README file to chart dir
+        run: cp -a README.md "${{ env.CHART_DIR }}"/
+
+      - name: Run Chart Releaser
+        uses: helm/chart-releaser-action@v1.0.0
+        with:
+          charts_dir: .
+        env:
+          CR_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
