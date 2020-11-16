@@ -1,3 +1,8 @@
+
+Archived in favor of the project repo: https://github.com/camunda/camunda-helm
+
+---
+
 <!-- omit in toc -->
 # Camunda BPM Platform Helm Chart
 
